@@ -52,6 +52,7 @@ nav {
   transform: translateX(-100%);
   transition: 0.3s;
   top: 60px;
+  z-index: 1;
 }
 nav a {
   display: flex;
@@ -87,6 +88,10 @@ nav li > a:hover {
 #navbar.show {
   opacity: 1;
   transform: translateX(0);
+}
+
+body.noscroll {
+  overflow: hidden;
 }
 
 .container {
