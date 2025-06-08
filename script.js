@@ -13,3 +13,9 @@
 // }
 
 // type();
+
+function showBox() {
+  const box = document.getElementById('navbar');
+  box.classList.toggle('show'); 
+	
+}

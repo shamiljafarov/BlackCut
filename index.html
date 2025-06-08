@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>BlackCut</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js" defer></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,22 +15,26 @@
 <body>
 	<header id="top">
 		<a href="/index.html"><img src="./img/logo.jpg" alt="logo" class="logo"></a>
-		<nav>
-			<ul>
-				<li><a href="/index.html">Ana Səhifə</a></li>
-				<li><a href="#services">Xidmətlər</a></li>
-				<li><a href="#about">Haqqımızda</a></li>
-				<li><a href="#blog">Bloq</a></li>
-				<li><a href="#contact">Əlaqə</a></li>
-			</ul>
-		</nav>
-		<button>Müraciət et</button>
+		<div id="menuIcon">
+			<img src="./img/menuIcon.svg" alt="menu" onclick="showBox()">
+		</div>
 	</header>
+	<nav id="navbar">
+		<ul class="nav-links">
+			<li><a href="/index.html">Ana Səhifə</a></li>
+			<li><a href="#services">Xidmətlər</a></li>
+			<li><a href="#about">Haqqımızda</a></li>
+			<li><a href="#blog">Bloq</a></li>
+			<li><a href="#contact">Əlaqə</a></li>
+			<li id="book_btn"><a href="#">Müraciət et</a></li>
+		</ul>
+	</nav>
 	<div class="container" id="home">
-			<h1 id="typing-text" class="mainText">“Stilin burda kəsilir. Xarakterin <span style="color: black; font-size: 20px;">BlackCut</span>-da formalaşır.”
-		– Brutal tərz, peşəkar qayçı, yalnız kişilər üçün yer.</h1>
-	</div> 
- 
+		<h1 id="typing-text" class="mainText">“Stilin burda kəsilir. Xarakterin <span
+				style="color: black; font-size: 20px;">BlackCut</span>-da formalaşır.”
+			– Brutal tərz, peşəkar qayçı, yalnız kişilər üçün yer.</h1>
+	</div>
+
 </body>
 
 </html>
